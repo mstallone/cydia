@@ -1,8 +1,8 @@
-Origin: Matthew Stallone's Beta Repo
-Label: Matthew Stallone's Beta Repo
+Origin: mstallone's beta repo
+Label: mstallone's beta repo
 Suite: stable
 Version: 0.9
-Codename: matthewstallonebetarepo
+Codename: mstallonebetarepo
 Architectures: iphoneos-arm
 Components: main
 Description: Matthew Stallone's Beta Repo
