@@ -5,8 +5,8 @@ Section: System
 Depends: firmware (>= 5.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs//com.MatthewStallone.CCAlarms_0.1-1_iphoneos-arm.deb
-Size: 21770
-MD5sum: e54c7080cc590a8e95d7549060ad6ade
+Size: 21818
+MD5sum: 0b381171c2a8b92f6a27cef1a41d1221
 author: Matthew Stallone
 name: CCAlarms
 
