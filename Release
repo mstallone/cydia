@@ -1,9 +1,0 @@
-Origin: http://mstallone.github.io/cydia/
-Label: Matthew Stallone's Beta Repo
-Suite: stable
-Version: 1.0
-Codename: stable
-Architectures: darwin-arm
-Components: main
-Descriptoion: Matthew Stallone's Beta Repo
-
