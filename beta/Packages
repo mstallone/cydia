@@ -1,12 +1,12 @@
 Package: com.MatthewStallone.Volume-HUD-for-Brightness
-Version: 0.1-1
+Version: 0.1-1b1
 Priority: optional
 Section: System
 Depends: firmware (>= 5.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs//com.MatthewStallone.Volume-HUD-for-Brightness_0.1-1_iphoneos-arm.deb
-Size: 11846
-MD5sum: 7d915256ad94a0b99627845fdbb725bc
+Filename: debs//com.MatthewStallone.Volume-HUD-for-Brightness_0.1-1b1_iphoneos-arm.deb
+Size: 11850
+MD5sum: 5768704a4f2e9ff909595c6487143179
 author: Matthew Stallone
 name: Volume HUD for Brightness
 
