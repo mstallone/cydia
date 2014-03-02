@@ -1,12 +1,12 @@
 Package: com.MatthewStallone.SpamKit
-Version: 0.1beta-1
+Version: 0.1beta-2
 Priority: optional
 Section: Tweaks
 Depends: firmware (>= 5.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs//com.MatthewStallone.SpamKit_0.1beta-1_iphoneos-arm.deb
-Size: 8540
-MD5sum: 5d8efc4a9c1c229bc776f1aefc7ab712
+Filename: debs//com.MatthewStallone.SpamKit_0.1beta-2_iphoneos-arm.deb
+Size: 7234
+MD5sum: f00860f555a8d6f66122287587d89d38
 author: Matthew Stallone
 name: SpamKit
 
