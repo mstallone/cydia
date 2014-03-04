@@ -1,14 +1,13 @@
-Package: com.MatthewStallone.No-NotificationCenter--iOS-7-
-Version: 0.2-b1
+Package: com.MatthewStallone.Disable-NC--iOS-7-
+Version: 0.1-1
 Priority: optional
-Section: System
+Section: Tweaks
 Depends: firmware (>= 5.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs//com.MatthewStallone.No-NotificationCenter--iOS-7-_0.2-b1_iphoneos-arm.deb
-Size: 4770
-MD5sum: e047ec58ff2f03c9afdcf2b596153c27
-Description: Disables Notification Center. Changelog 0.2: Removes lockscreen grabber for Notification Center
+Filename: debs//com.MatthewStallone.Disable-NC--iOS-7-_0.1-1_iphoneos-arm.deb
+Size: 21760
+MD5sum: f9b662f1b2e649b2b6ea606202f298ac
+Description: Simple tweak that disables Notification Center and Notification Center grabber.
 author: Matthew Stallone
-dev: Matthew Stallone
-name: No NotificationCenter (iOS 7)
+name: Disable NC (iOS 7)
 
