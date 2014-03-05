@@ -5,8 +5,8 @@ Section: Tweaks
 Depends: firmware (>= 5.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs//com.MatthewStallone.Disable-NC--iOS-7-_0.1-1_iphoneos-arm.deb
-Size: 21760
-MD5sum: f9b662f1b2e649b2b6ea606202f298ac
+Size: 21826
+MD5sum: 490ec52ec176e1bdd7d58ee0b64fcacb
 Description: Simple tweak that disables Notification Center and Notification Center grabber.
 author: Matthew Stallone
 name: Disable NC (iOS 7)
