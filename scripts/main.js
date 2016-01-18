@@ -39,8 +39,8 @@ function addProjects() {
     The app utilizes the Android SDK and Node.js", "ThoughtCloud", ["Server.js", "MainActivity.java", "Settings.java"]));
 
     $('#portfolio').append(newProject("BatteryBar", "A Mac OS X app that overrides the UI to display the battery percent on the menu bar.",
-    "BatteryBar",
-    ["Demo.png", "AppDelegate.m", "LoginItemAppDelegate.m", "PreferencesTextField.m", "PreferencesWindowController.m", "PreferencesViewController.h", "PreferencesViewController.m", "BatteryBar.app"]));
+    "BatteryBar", ["Demo.png", "AppDelegate.m", "LoginItemAppDelegate.m", "PreferencesTextField.m", "PreferencesWindowController.m", "PreferencesViewController.h", 
+    "PreferencesViewController.m"]));
 
     $('#portfolio').append(newProject("Postfix Calculator (Stack)", "A implementation of a custom stack in a postfix calculator. Also comes with a custom GUI",
     "PostFixCalcCustomStack", ["MJSStack.java","PostfixCalculater.java","CalculatorGUI.java"]));
@@ -60,6 +60,9 @@ function addProjects() {
     $('#portfolio').append(newProject("MovieGoers (Maps and Sets)", "Just a implementation of Java's maps and sets. Tells you which movies your friends can see.",
     "MapsSets", ["MovieGoersAdvance.java", "MovieGoersBasic.java"]));
 
+    $('#portfolio').append(newProject("Drawing", "A Java drawing app. Based on AP Computer Science Grid World grid.", "DrawingApp",
+    ["ColorDisplay.java", "ColorGrid.java", "DrawingGrid.java", "GridDriver.java", "TextGrid.java"]));
+
     $('#portfolio').append(newProject("CodeForces Python", "Python to solutions to some problems at <a href='http://codeforces.com'>http://codeforces.com</a>", "CodeForces_Python",
     ["112A_PetyaAndStrings.py","282A_Bit++.py","116A_Tram.py","339A_HelpfulMaths.py","131A_cAPSlOCK.py","588B_DuffInLove.py","133A_HQ9+.py","588B_DuffInLove_2.py",
     "158B_Taxi.py","607A_ChainReaction.py","160A_Twins.py","608A_SaitamaDestroysHotel.py","219A_K-String.py","608B_HammingDistanceSum.py","231A_Team.py","609A_USBFlashDrives.py",
@@ -78,7 +81,10 @@ function addProjects() {
       was not made to be suitable for practical use. It was created in 1993 by Urban Müller. The language's name is a reference to the vulgar term \
       \"brain f**k\", which refers to things so complicated or unusual that they exceed the limits of one's understanding\"\
       (<a href=\"https://en.wikipedia.org/wiki/Brainfuck\">Wikipedia</a>). The interpreter is hosted <a href='http://www.matthewstallone.com/Brainfuck/'>Here</a>.",
-       "Brainf**k", ["main.js"]));
+       "Brainfuck", ["main.js"]));
+
+    $('#portfolio').append(newProject("ACSL Solutions", "My solutions to some of the ACSL (American Computer Science League).","ACSL",
+    ["ACSL_Fanorona.java", "ACSL_Fanorona.pdf", "ACSL_x.java", "ACSL_y.java", "ACSL_z.java"]));
 
     $('#portfolio').append(newProject("Tube Game", "A simple iOS game I made. Objective: survive the longest. \
     How: Use the accelerometer to avoid spinning circles with obstacles. (See Demo [Demo is on simulator so the accelerometer does not work.]).", "TubeGame", ["Demo.gif", "ViewController.m"]));
