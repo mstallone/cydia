@@ -60,13 +60,13 @@ function addProjects() {
 "266A_StonesOnTheTable.py",
 "281A_WordCapitalization.py"]));
 
-    $('#portfolio').append(newProject("Brainf*ck Interpreter", "A simple, full-featured Brainf*ck interpreter in Javascript. \
-    \"Brainfuck is an esoteric programming language noted for its extreme minimalism. The language consists of only eight simple commands\
+    $('#portfolio').append(newProject("Brainf**k Interpreter", "A simple, full-featured Brainf**k interpreter in Javascript. \
+    \"Brainf**k is an esoteric programming language noted for its extreme minimalism. The language consists of only eight simple commands\
      and an instruction pointer. Nevertheless, it was shown to be Turing-complete. It is designed to challenge and amuse programmers, and\
       was not made to be suitable for practical use. It was created in 1993 by Urban Müller. The language's name is a reference to the vulgar term \
-      \"brain fuck\", which refers to things so complicated or unusual that they exceed the limits of one's understanding\"\
-      (<a href=\"https://en.wikipedia.org/wiki/Brainfuck\">Wikipedia</a>). The interpreter is hosted <a href='http://www.matthewstallone.com/Brainfuck/'>Here</a>.",
-       "Brainfuck", ["main.js"]));
+      \"brain f**k\", which refers to things so complicated or unusual that they exceed the limits of one's understanding\"\
+      (<a href=\"https://en.wikipedia.org/wiki/Brainfuck\">Wikipedia</a>). The interpreter is hosted <a href='http://www.matthewstallone.com/Brainf**k/'>Here</a>.",
+       "Brainf**k", ["main.js"]));
 }
 
 function newProject(name, description, link, paths){
