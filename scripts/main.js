@@ -42,23 +42,35 @@ function addProjects() {
     "BatteryBar",
     ["Demo.png", "AppDelegate.m", "LoginItemAppDelegate.m", "PreferencesTextField.m", "PreferencesWindowController.m", "PreferencesViewController.h", "PreferencesViewController.m", "BatteryBar.app"]));
 
+    $('#portfolio').append(newProject("Postfix Calculator (Stack)", "A implementation of a custom stack in a postfix calculator. Also comes with a custom GUI",
+    "PostFixCalcCustomStack", ["MJSStack.java","PostfixCalculater.java","CalculatorGUI.java"]));
+
+    $('#portfolio').append(newProject("Lines (Queue)", "A implementation of a custom queue. Compares waiting time of a single line and a multiple-line store",
+    "Lines", ["Customer.java","MJSQueue.java","MultiLineStore.java","SingleLineStore.java"]));
+
+    $('#portfolio').append(newProject("BarScanner (Hash Table)", "A implementation of a Barcode scanner (Universal Product Codes) using hash table for all the products.",
+    "BarScanner", ["BarscannerOne.java","BarscannerTwo.java","ItemPrice.java", "ListNode.java"]));
+
+    $('#portfolio').append(newProject("20 Questions (TreeNode)", "A implementation of the 20 questions game using a treenode structure for the questions and answers. \
+    Builds a text file data base of nodes.", "TwentyQuestions", ["TreeNode.java","QuestionGameV2.java"]));
+
+    $('#portfolio').append(newProject("Miscellaneous Data Structures", "These are different data structures I wrote, but never made it into a project.",
+    "DataStructures", ["MJSDeque.java", "MJSDoubleNode.java", "MJSLinkedList.java"]));
+
+    $('#portfolio').append(newProject("MovieGoers (Maps and Sets)", "Just a implementation of Java's maps and sets. Tells you which movies your friends can see.",
+    "MapsSets", ["MovieGoersAdvance.java", "MovieGoersBasic.java"]));
+
+    $('#portfolio').append(newProject("CodeForces Python", "Python to solutions to some problems at <a href='http://codeforces.com'>http://codeforces.com</a>", "CodeForces_Python",
+    ["112A_PetyaAndStrings.py","282A_Bit++.py","116A_Tram.py","339A_HelpfulMaths.py","131A_cAPSlOCK.py","588B_DuffInLove.py","133A_HQ9+.py","588B_DuffInLove_2.py",
+    "158B_Taxi.py","607A_ChainReaction.py","160A_Twins.py","608A_SaitamaDestroysHotel.py","219A_K-String.py","608B_HammingDistanceSum.py","231A_Team.py","609A_USBFlashDrives.py",
+    "236A_BoyOrGirl.py","609B_TheBestGift.py","25A_IQTest.py","609C_LoadBalancing.py","266A_StonesOnTheTable.py","281A_WordCapitalization.py"]));
+
+    $('#portfolio').append(newProject("Musical Instrument", "An Arduino projects which plays notes on button presses. \
+    The project can recored the button presses and play the song back at variable speed.", "MusicalInstrument", ["MusicalInstrument.ino"]));
+
     $('#portfolio').append(newProject("Infinity-Scroll", "A project for iOS, which allos Infinity page scroll (implemented for \
         NSDate) using UIPageViewController", "Infinity-Scroll",
     ["Demo.gif", "DetailedViewController.h", "DetailedViewController.m", "ViewController.h", "ViewController.m"]));
-
-    $('#portfolio').append(newProject("CodeForces Python", "Python to solutions to some problems at <a href='http://codeforces.com'>http://codeforces.com</a>", "CodeForces_Python",
-    ["112A_PetyaAndStrings.py","282A_Bit++.py",
-"116A_Tram.py","339A_HelpfulMaths.py",
-"131A_cAPSlOCK.py","588B_DuffInLove.py",
-"133A_HQ9+.py","588B_DuffInLove_2.py",
-"158B_Taxi.py","607A_ChainReaction.py",
-"160A_Twins.py","608A_SaitamaDestroysHotel.py",
-"219A_K-String.py","608B_HammingDistanceSum.py",
-"231A_Team.py","609A_USBFlashDrives.py",
-"236A_BoyOrGirl.py","609B_TheBestGift.py",
-"25A_IQTest.py","609C_LoadBalancing.py",
-"266A_StonesOnTheTable.py",
-"281A_WordCapitalization.py"]));
 
     $('#portfolio').append(newProject("Brainf**k Interpreter", "A simple, full-featured Brainf**k interpreter in Javascript. \
     \"Brainf**k is an esoteric programming language noted for its extreme minimalism. The language consists of only eight simple commands\
@@ -67,6 +79,13 @@ function addProjects() {
       \"brain f**k\", which refers to things so complicated or unusual that they exceed the limits of one's understanding\"\
       (<a href=\"https://en.wikipedia.org/wiki/Brainfuck\">Wikipedia</a>). The interpreter is hosted <a href='http://www.matthewstallone.com/Brainfuck/'>Here</a>.",
        "Brainf**k", ["main.js"]));
+
+    $('#portfolio').append(newProject("Tube Game", "A simple iOS game I made. Objective: survive the longest. \
+    How: Use the accelerometer to avoid spinning circles with obstacles. (See Demo [Demo is on simulator so the accelerometer does not work.]).", "TubeGame", ["Demo.gif", "ViewController.m"]));
+
+    $('#portfolio').append(newProject("Don't Fall! (Game)", "A simple iOS game I made. Objective: survive the longest. \
+    How: Use the accelerometer (app uses trigonometry to calculate tilt of the device) to avoid falling platforms. (See Demo).",
+    "DontFall", ["Demo.png", "GameScene.m", "GameViewController.m"]));
 }
 
 function newProject(name, description, link, paths){
