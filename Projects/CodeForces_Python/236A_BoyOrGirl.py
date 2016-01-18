@@ -1,0 +1,1 @@
+print("CHAT WITH HER!") if len(''.join(set(input())))%2 == 0 else print("IGNORE HIM!")
