@@ -65,7 +65,8 @@ function addProjects() {
      and an instruction pointer. Nevertheless, it was shown to be Turing-complete. It is designed to challenge and amuse programmers, and\
       was not made to be suitable for practical use. It was created in 1993 by Urban Müller. The language's name is a reference to the vulgar term \
       \"brain fuck\", which refers to things so complicated or unusual that they exceed the limits of one's understanding\"\
-      (<a href=\"https://en.wikipedia.org/wiki/Brainfuck\">Wikipedia</a>).", "Brainfuck", ["main.js"]));
+      (<a href=\"https://en.wikipedia.org/wiki/Brainfuck\">Wikipedia</a>). The interpreter is hosted <a href='http://www.matthewstallone.com/Brainfuck/'>Here</a>.",
+       "Brainfuck", ["main.js"]));
 }
 
 function newProject(name, description, link, paths){
